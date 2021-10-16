@@ -22,11 +22,11 @@ Page: [tech-sharing](https://thanhdinhit.github.io/tech-sharing/).
 - Install ph-pages package with cmd: `npm install --save gh-pages`
 - Add code in package.json file:
 ----------------------------------------------------------
-// Add homepage path
-// https://[your-user-name].github.io/[your-repo-name]/
+- Add homepage path
+**https://[your-user-name].github.io/[your-repo-name]/
 "homepage": "https://dinh123xxy.github.io/deploy-github/",
 
-// Add predeploy & deploy app command
+- Add predeploy & deploy app command
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
 ----------------------------------------------------------
