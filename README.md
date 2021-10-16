@@ -29,6 +29,9 @@ Page: [tech-sharing](https://thanhdinhit.github.io/tech-sharing/).
 `"predeploy": "npm run build",`
 `"deploy": "gh-pages -d build",`
 ![add code](https://images.viblo.asia/6273ae6b-ccb2-4fc6-8416-0c8d9a63f584.png)
+
+## Run deploy app
+- `npm run deploy`
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
