@@ -21,15 +21,13 @@ Page: [tech-sharing](https://thanhdinhit.github.io/tech-sharing/).
 ## gh-pages installation 
 - Install ph-pages package with cmd: `npm install --save gh-pages`
 - Add code in package.json file:
-----------------------------------------------------------
-- Add homepage path
-**https://[your-user-name].github.io/[your-repo-name]/
-"homepage": "https://dinh123xxy.github.io/deploy-github/",
 
-- Add predeploy & deploy app command
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build",
-----------------------------------------------------------
+- Add homepage path: https://[your-user-name].github.io/[your-repo-name]/
+`"homepage": "https://dinh123xxy.github.io/deploy-github/",`
+
+- Add predeploy & deploy app command:
+`"predeploy": "npm run build",`
+`"deploy": "gh-pages -d build",`
 ![add code](https://images.viblo.asia/6273ae6b-ccb2-4fc6-8416-0c8d9a63f584.png)
 # Getting Started with Create React App
 
