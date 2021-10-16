@@ -1,8 +1,36 @@
 Page: [tech-sharing](https://thanhdinhit.github.io/tech-sharing/).
 
-Project creation:
-- Creation project reactjs: 
-### `create-react-app deploy-github`
+## Project creation:
+- Creation project reactjs: `create-react-app project-name`
+- Then run in local: 
+    + `cd project-name`
+    + `npm start`
+## Repository creation
+
+![github repo](https://images.viblo.asia/db3826db-4c78-429c-9a56-a1caabe63817.png)
+
+- Create git: `git init`
+- Commit source code:
+    + `git add`
+    + `git commit -m 'first commit'`
+
+## Add remote and push code into github
+- Add remote: `git remote add origin git@github.com:yourname-github/project-name.git`
+- Push code: `git push origin master`
+
+## gh-pages installation 
+- Install ph-pages package with cmd: `npm install --save gh-pages`
+- Add code in package.json file:
+----------------------------------------------------------
+// Add homepage path
+// https://[your-user-name].github.io/[your-repo-name]/
+"homepage": "https://dinh123xxy.github.io/deploy-github/",
+
+// Add predeploy & deploy app command
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+----------------------------------------------------------
+![add code](https://images.viblo.asia/6273ae6b-ccb2-4fc6-8416-0c8d9a63f584.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
