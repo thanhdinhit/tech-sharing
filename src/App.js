@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import ExampleNormal from './example-normal';
+import SideBar from './component/sidebar/index.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div >
+      <SideBar/>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello, I'm DinhNT
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://thanhdinhit.github.io/tech-sharing/"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          More about me
+          Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
