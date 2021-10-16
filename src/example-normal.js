@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { SideMenu, Item } from 'react-sidemenu';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 const routes = [
